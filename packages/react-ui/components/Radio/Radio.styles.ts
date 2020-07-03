@@ -9,6 +9,8 @@ const styles = {
       white-space: nowrap;
       padding-top: ${t.radioPaddingY};
       padding-bottom: ${t.radioPaddingY};
+      line-height: ${t.radioLineHeight};
+      font-size: ${t.radioFontSize};
       display: inline-block;
     `;
   },
@@ -145,7 +147,6 @@ const styles = {
   label(t: Theme) {
     return css`
       display: ${t.radioLabelDisplay};
-      line-height: ${t.radioLineHeight};
       margin-left: ${t.radioPaddingX};
       white-space: normal;
     `;
